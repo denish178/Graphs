@@ -15,9 +15,6 @@ class Graph {
            adjList[u].push_back(v);
            adjList[v].push_back(u);
        }
-       cout << endl << "Printing adjList" << endl;
-       printAdjList();
-       cout << endl;
   }
   void printAdjList(){
       for(auto i: adjList){
@@ -37,6 +34,9 @@ int main() {
   g.addEdge(1,2,1);
   g.addEdge(2,3,0);
   g.addEdge(3,4,1);
+
+  cout << "Printing Adjacency List: " << endl;
+  g.printAdjList();
 
   return 0;
 }
