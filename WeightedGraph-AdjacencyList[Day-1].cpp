@@ -20,9 +20,6 @@ class Graph {
       adjList[u].push_back(make_pair(v,wt));
       adjList[v].push_back(make_pair(u,wt)); 
     }
-    cout << "Printing adjList" << endl;
-    printAdjList();
-    cout << endl;
   }
 
 
@@ -46,6 +43,9 @@ int main() {
   g.addEdge(1,2,10,1);
   g.addEdge(1,3,20,1);
   g.addEdge(2,3,50,1);
+
+  cout << "Printing Adjacency List: " << endl;
+  g.printAdjList();
 
   return 0;
 }
