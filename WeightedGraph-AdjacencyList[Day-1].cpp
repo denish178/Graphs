@@ -49,3 +49,7 @@ int main() {
 
   return 0;
 }
+
+Representation | Space Complexity | Time Complexity (Creation) | Best for
+Adjacency List | O(V + E) | O(V + E) | Sparse graphs
+Adjacency Matrix | O(V²) | O(V²) | Dense graphs
