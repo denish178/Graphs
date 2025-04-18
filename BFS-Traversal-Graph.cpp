@@ -102,3 +102,66 @@ for(char node='a';node<='f';node++){
 
   return 0;
 }
+
+
+
+
+//2ND CODE MORE EFFICIENT APPROACH
+#include <iostream>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+void bfs(int startNode, const vector<vector<int>>& adjList, int V) {
+    vector<bool> visited(V + 1, false);  // +1 to handle 1-based indexing
+    queue<int> q;
+
+    visited[startNode] = true;
+    q.push(startNode);
+
+    cout << "BFS Traversal starting from node " << startNode << ": ";
+
+    while (!q.empty()) {
+        int curr = q.front();
+        q.pop();
+        cout << curr << " ";
+
+        for (int neighbor : adjList[curr]) {
+            if (!visited[neighbor]) {
+                visited[neighbor] = true;
+                q.push(neighbor);
+            }
+        }
+    }
+
+    cout << endl;
+}
+
+int main() {
+    int V, E;
+    cout << "Enter number of vertices (V): ";
+    cin >> V;
+    cout << "Enter number of edges (E): ";
+    cin >> E;
+
+    vector<vector<int>> adjList(V + 1);  // +1 for 1-based indexing
+
+    cout << "Enter edges (u v) for a directed graph:\n";
+    for (int i = 0; i < E; ++i) {
+        int u, v;
+        cin >> u >> v;
+        adjList[u].push_back(v);
+        // For undirected graph, also add:
+        // adjList[v].push_back(u);
+    }
+
+    int startNode;
+    cout << "Enter the starting node for BFS: ";
+    cin >> startNode;
+
+    bfs(startNode, adjList, V);
+
+    return 0;
+}
+
