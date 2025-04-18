@@ -29,50 +29,7 @@ class Graph {
         cout << "}" << endl;
       }
   }    
-  
-  void bfsTraversal(T src){
-      
-      unordered_map<T,bool> visited;
-      queue<T> q;
-      
-      q.push(src);
-      visited[src] = true;
-      
-      while(!q.empty()){
-          T frontNode = q.front();
-          cout << frontNode << " ";
-          q.pop();
-          
-          for(auto nbr: adjList[frontNode]){
-              if(!visited[nbr]){
-                  q.push(nbr);
-                  visited[nbr] = true;
-              }
-          }
-      }
-  }
-  
-    void bfsTraversalForDis(T src,unordered_map<T,bool>&visited){
-
-      queue<T> q;
-      
-      q.push(src);
-      visited[src] = true;
-      
-      while(!q.empty()){
-          T frontNode = q.front();
-          cout << frontNode << " ";
-          q.pop();
-          
-          for(auto nbr: adjList[frontNode]){
-              if(!visited[nbr]){
-                  q.push(nbr);
-                  visited[nbr] = true;
-              }
-          }
-      }
-  }
-  
+    
   void dfsTraversal(T src,unordered_map<T,bool> &visited){
       visited[src] = true;
       cout << src << " ";
@@ -113,15 +70,6 @@ for(char node='a';node<='g';node++){
 }
 cout << endl;
 cout << "Number of dis-connected components in this graph is :" << count << endl;
-
-// unordered_map<char,bool> visited;
-// for(char node='a';node<='f';node++){
-//     if(!visited[node]){
-//       g.bfsTraversalForDis(node,visited);
-//     }
-// }
-//   cout << "Printing Adjacency List: " << endl;
-//   g.printAdjList();
-
-  return 0;
+  
+return 0;
 }
