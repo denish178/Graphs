@@ -26,4 +26,5 @@ Q-9) Detect cycle in an Undirected Graph - BFS [Question-Link :- https://www.gee
 
 Q-10) Detect cycle in an Undirected Graph - DFS [Question-Link :- https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1]
 
+Q-11) Detect cycle in a directed Graph - DFS [Question-Link :- https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1]
 
