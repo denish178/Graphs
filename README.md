@@ -14,10 +14,15 @@ Q-5) Graph Traversal = Deapth First Search [DFS]
 
 [Practice]
 
-Q-6) Number of Provinces [LEETCODE - 547]
+Q-6) Number of Provinces [Question-Link :- https://leetcode.com/problems/number-of-provinces/description/]
 
-Q-7) Number of Islands [LEETCODE - 200]
+Q-7) Number of Islands [Question-Link :- https://leetcode.com/problems/number-of-islands/description/]
 
-Q-8) Rotten Oranges [LEETCODE - 994]
+Q-8) Rotten Oranges [Question-Link :-[https://leetcode.com/problems/rotting-oranges/description/]
 
+[3] Cycle Detection
 
+Q-9) Detect cycle in an Undirected Graph - BFS
+     Detect cycle in an Undirected Graph - DFS
+
+Q-10) 
