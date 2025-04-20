@@ -23,6 +23,7 @@ Q-8) Rotten Oranges [Question-Link :-[https://leetcode.com/problems/rotting-oran
 [3] Cycle Detection
 
 Q-9) Detect cycle in an Undirected Graph - BFS
+
      Detect cycle in an Undirected Graph - DFS
 
 Q-10) 
