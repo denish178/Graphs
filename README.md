@@ -28,3 +28,7 @@ Q-10) Detect cycle in an Undirected Graph - DFS [Question-Link :- https://www.ge
 
 Q-11) Detect cycle in a directed Graph - DFS [Question-Link :- https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1]
 
+[4] Topological Sort
+
+Q-12) Topological sort - DFS [Question-Link :- https://www.geeksforgeeks.org/problems/topological-sort/1]
+
