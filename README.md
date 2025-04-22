@@ -18,7 +18,7 @@ Q-6) Number of Provinces [Question-Link :- https://leetcode.com/problems/number-
 
 Q-7) Number of Islands [Question-Link :- https://leetcode.com/problems/number-of-islands/description/]
 
-Q-8) Rotten Oranges [Question-Link :-[https://leetcode.com/problems/rotting-oranges/description/]
+Q-8) Rotten Oranges [Question-Link :-https://leetcode.com/problems/rotting-oranges/description/]
 
 [3] Cycle Detection
 
