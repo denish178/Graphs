@@ -32,5 +32,5 @@ Q-11) Detect cycle in a directed Graph - DFS [Question-Link :- https://www.geeks
 
 Q-12) Topological sort - DFS [Question-Link :- https://www.geeksforgeeks.org/problems/topological-sort/1]
 
-Q-13) Topological sort - BFS [Question-Link :- https://www.geeksforgeeks.org/problems/topological-sort/1] [Cycle detection in cyclic graph - topological sort will be used]
+Q-13) Topological sort - BFS [Question-Link :- https://www.geeksforgeeks.org/problems/topological-sort/1] [Cycle detection in cyclic graph - topological sort will be used] [Kahn's Algorithm]
 
