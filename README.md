@@ -34,7 +34,10 @@ Q-12) Topological sort - DFS [Question-Link :- https://www.geeksforgeeks.org/pro
 
 Q-13) Topological sort - BFS [Question-Link :- https://www.geeksforgeeks.org/problems/topological-sort/1] [Cycle detection in cyclic graph - topological sort will be used] [Kahn's Algorithm]
 
+[5] Shortest Path 
+
 Q-14) Shortest Path in Undirected graph [BFS USED] [Question Link :- https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1]
 
 Q-15) Sigle Source Shortest Path in DAC Graph - [DFS USED] [Question Link :- https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1]
 
+Q-16) Dijkstra Algorithm for finding shortest path from source to all nodes - [Question Link :- https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1]
